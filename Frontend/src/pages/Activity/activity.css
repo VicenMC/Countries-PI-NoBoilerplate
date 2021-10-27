@@ -1,0 +1,190 @@
+* {
+  font-family: sans-serif;
+}
+
+.mainText {
+  color: white;
+  text-decoration: underline;
+}
+
+.generalContainer {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: url("https://sm.ign.com/t/ign_latam/news/f/firewatch-/firewatch-developer-campo-santo-acquired-by-valve_z6rd.h720.jpg");
+  background-size: cover;
+}
+
+.form {
+  margin-top: 5%;
+  border-radius: 15px;
+  width: 600px;
+  height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border: 2px solid #e42c2c;
+}
+
+.pSalute {
+  float: left;
+  margin-left: 15px;
+  font-size: 20px;
+  color: white;
+font-family: Arial, sans-serif;
+}
+
+.form-group {
+  margin: 20px 10px;
+  margin-bottom: 0;
+}
+
+.form-group-op {
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+.formContainer {
+  height: 100%;
+}
+
+.selectOp {
+  color: white;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.5em 2em 0.5em 0.5em;
+  border: 1px solid #eee;
+  font: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: right 15px top 1em, right 10px top 1em;
+  background-size: 5px 5px, 5px 5px;
+}
+
+.selectOp:focus {
+  outline: none;
+}
+
+.selectOp:after {
+  background-color: red;
+}
+
+.selectOp:ms-expand {
+  display: none;
+}
+
+.elemSelect {
+  color: black;
+}
+
+.optionsContainer {
+  color: white;
+  display: inline-block;
+  margin-left: -0.5vw;
+}
+
+.selector {
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 20px;
+  border-color: white;
+  background: transparent;
+  color: white;
+  margin-left: 0px;
+  display: inline;
+  width: 60%;
+}
+
+.selector:focus {
+  outline: none;
+}
+
+.selector:focus::placeholder {
+  color: transparent;
+}
+
+.selector::placeholder {
+  color: white;
+}
+
+.form-group-op {
+  float: left;
+  padding: 15px;
+}
+
+.submitButton,
+.returnButton {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.submitButton {
+  margin-top: 2vh;
+  display: inline;
+}
+.returnButton {
+  margin-top: 3vh;
+}
+
+.submitButton:hover {
+  background: linear-gradient(rgba(16, 14, 14, 0.5), rgba(60, 59, 59, 0.5));
+  cursor: pointer;
+}
+
+.buttonLink {
+  text-decoration: none;
+}
+
+.returnButton:hover {
+  background: linear-gradient(rgba(16, 14, 14, 0.5), rgba(60, 59, 59, 0.5));
+  cursor: pointer;
+}
+
+.errorMessage{
+  color: red;
+  margin-top: 1vh;
+  margin-bottom: 0;
+}
+
+.selectCountriesContainer{
+  border-radius: 3px;
+  border: 1px solid ;
+  color: white;
+  display: inline-grid;
+  margin-left: 15px;
+  width: 5vw;
+  max-height: 15.1vh;
+  position: fixed;
+  overflow: scroll;
+  background: linear-gradient(rgba(16, 14, 14, 0.5), rgba(60, 59, 59, 0.5));
+}
+.selectCountriesContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.countryCount{
+  position: fixed;
+}
+
+.countriesCollection{
+  margin-top: 1vh;
+margin-bottom: 1vh;
+}
+
+.countriesCount{
+  display: inline;
+    margin-left: 10px;
+    background: linear-gradient(rgba(16, 14, 14, 0.5), rgba(60, 59, 59, 0.5));
+    color: white;
+}

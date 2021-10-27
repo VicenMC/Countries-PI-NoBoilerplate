@@ -1,0 +1,126 @@
+.detailsContainer {
+  height: 100vh;
+  background: url("https://wallpaperbat.com/img/90735-animated-landscape-2560x1440-wallpaper.png");
+  margin-top: -11vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.detailsCard {
+  height: 100%;
+  color: white;
+  margin-top: 5%;
+}
+.detailsText {
+  float: l;
+}
+
+.detailsName {
+  font-size: 50px;
+}
+.detailsInformation {
+  border: 2px solid black;
+  align-items: center;
+}
+.detailedFlag {
+  max-width: 12vw;
+  max-height: 25vh;
+  margin-top: 2vh;
+}
+
+.details {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1.5));
+  width: 400px;
+  margin: 10px;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline;
+}
+
+.details summary {
+  outline: none;
+  cursor: pointer;
+  float: left;
+}
+
+
+
+.countryInfo {
+  display: inline-block;
+  margin: 13vh 0 0 17vw;
+  border-radius: 10px;
+  float: left;
+  width: 30%;
+  height: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.listElement {
+  display: inline-block;
+  margin: 10px;
+}
+
+.detailsList {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  float: left;
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0px;
+}
+
+.listActivity {
+  margin-top: 5px;
+  float: left;
+  display: list-item;
+
+  width: 100%;
+}
+.actCont {
+  display: inline-block;
+  border-radius: 10px;
+  height: 60%;
+  width: 35%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  margin-top: 13vh;
+  margin-right: 17vw;
+  overflow: scroll;
+}
+.detailsActivity {
+  list-style: none;
+}
+.actCont::-webkit-scrollbar {
+  display: none;
+}
+
+.linkReturn {
+  displayn: none;
+}
+
+.buttonLoL {
+  margin-left: 54vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.buttonLoL:hover {
+  background: linear-gradient(rgba(16, 14, 14, 0.5), rgba(60, 59, 59, 0.5));
+  cursor: pointer;
+}
+
+.listP{
+  font-family: Georgia, serif;  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  display: flex;
+}
+
+.listP:before {
+    content:"-   ";
+}

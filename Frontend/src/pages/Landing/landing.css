@@ -1,0 +1,69 @@
+.landingContainer {
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: url("https://cutewallpaper.org/21/cartoon-landscape-wallpaper/Desktop-wallpaper-night-cartoon-illustration-full-moon-.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.tittle{
+  margin-top: 2vh;
+  margin-bottom: 0;
+}
+
+.paragraph{
+  margin:  1vh;
+  margin-right: 1vw;
+  font-family: verdana;
+}
+
+.landingCard {
+  display: inline-table;
+  height: 318px;
+  width: 31vw;
+  border-radius: 20px;
+  border: 1px solid black;
+  vertical-align: middle;
+  margin-top: 7%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.textContainer {
+  padding: 10px;
+  text-align: left;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+  float: left;
+}
+
+.botonMain {
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+.botonMain:hover {
+  background: linear-gradient(rgba(16, 14, 14, 0.5), rgba(60, 59, 59, 0.5));
+  cursor: pointer;
+}
+
+.botonLink {
+  text-decoration: none;
+}
+
+.worldGif {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+}

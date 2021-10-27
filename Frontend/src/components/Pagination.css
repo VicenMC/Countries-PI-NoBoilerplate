@@ -1,0 +1,29 @@
+.pagination {
+  list-style: none;
+  color: white;
+}
+
+.page-link {
+  text-decoration: none;
+}
+
+.page-item {
+  margin: 0 5px;
+  color: white;
+  display: inline;
+  padding: 8px;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+.page-item {
+  color: white;
+  text-decoration: none;
+}
+.page-item:hover {
+  background: linear-gradient(rgba(0, 0, 0, 1.5), rgba(0, 0, 0, 1.5));
+  cursor: pointer;
+}
+.page-link {
+  color: white;
+}
