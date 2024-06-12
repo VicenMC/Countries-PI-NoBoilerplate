@@ -27,27 +27,24 @@ markmap:
 
 ## Links
 
-- [Website](https://markmap.js.org/)
-- [GitHub](https://github.com/gera2ld/markmap)
+- [Scanners](https://scanners-pn22zudpqa-uc.a.run.app/)
+- [Repository](https://github.com/gera2ld/markmap)
 
 ## Related Projects
 
-- [coc-markmap](https://github.com/gera2ld/coc-markmap) for Neovim
-- [markmap-vscode](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode) for VSCode
-- [eaf-markmap](https://github.com/emacs-eaf/eaf-markmap) for Emacs
+- [Transporters](https://github.com/gera2ld/coc-markmap) for label generation
+- [boxes.map](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode) for waybill payment calculation
+- [Dashboard](https://github.com/emacs-eaf/eaf-markmap) for order detail consult
 
-## Features
+## Manual
 
 Note that if blocks and lists appear at the same level, the lists will be ignored.
 
-### Lists
+### Installation
 
-- **strong** ~~del~~ *italic* ==highlight==
-- `inline code`
-- [x] checkbox
-- Katex: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ <!-- markmap: fold -->
-  - [More Katex Examples](#?d=gist:af76a4c245b302206b16aec503dbe07b:katex.md)
-- Now we can wrap very very very very long text based on `maxWidth` option
+- Install library `Library` for optimal performance
+- Read `FrameWorkDocumentation` for optimal performance
+  - [Documentation link](#?d=gist:af76a4c245b302206b16aec503dbe07b:katex.md)
 
 ### Blocks
 
@@ -57,6 +54,10 @@ console.log('hello, JavaScript')
 
 | Products | Price |
 |-|-|
+| Apple | 4 |
+| Banana | 2 |
+
+![](/favicon.png)
 | Apple | 4 |
 | Banana | 2 |
 
